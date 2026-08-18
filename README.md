@@ -27,7 +27,6 @@ The system is built using interrelated classes that separate the main checkout c
 +-------------------------+          +-------------------------+          +-------------------------+
 ```
 ## How to Run
-
 1. Ensure Python 3 is installed.
 2. Run the main program: python main.py
 5. The program applies the Strategy pattern to calculate tuition after discounts (PL = 100% off, DL = 50% off, NoDiscount = 0% off) and prints the computed total to the terminal.
