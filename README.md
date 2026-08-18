@@ -27,8 +27,6 @@ The system is built using interrelated classes that separate the main checkout c
 +-------------------------+          +-------------------------+          +-------------------------+
 ```
 ## How to Run
-1. Ensure Python 3 is installed.
-2. Run the main program: python main.py
-5. The program applies the Strategy pattern to calculate tuition after discounts (PL = 100% off, DL = 50% off, NoDiscount = 0% off) and prints the computed total to the terminal.
-6. Run the unit tests: python -m unittest test_main.py -v
-7. The results show 3 passing tests (test_pl_discount, test_dl_discount, test_no_discount), each confirming that the correct discount strategy produces the expected tuition total. A final "OK" confirms all tests passed.
+1. Ensure Python3 is installed.
+2. Run the unit tests: python3 -m unittest test_main.py -v
+3. The results show 3 passing tests (test_pl_discount, test_dl_discount, test_no_discount), each confirming that the correct discount strategy produces the expected tuition total. A final "OK" confirms all tests passed.
